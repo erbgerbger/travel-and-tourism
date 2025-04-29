@@ -14,11 +14,13 @@ const Home = () => {
         <h1>Start Your New Destination</h1>
         <br />
         
-        <NavLink to="/login" className="login-button">
-          Login
-        </NavLink>
         <NavLink to={"/state"} className="reservation-button">
           Select Your Reservation
+        </NavLink>
+        <br/>
+        <br/>
+        <NavLink to="/login" className="login-button">
+          Login
         </NavLink>
 
         
