@@ -1,0 +1,35 @@
+.states-page {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .states-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .state-card {
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .state-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .state-card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .state-card:hover {
+    transform: scale(1.05);
+  }
+  
