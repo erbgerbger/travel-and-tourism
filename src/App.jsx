@@ -12,6 +12,7 @@ import Goa from "./pages/goa";
 import Maharashtra from "./pages/maharashtra";
 import AndhraPradesh from "./pages/andhra pradesh";
 import JK from "./pages/jk";
+import Login from "./pages/login";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
             <Route path="/maharashtra" element={<Maharashtra />} />
             <Route path="/andhra pradesh" element={<AndhraPradesh />} />
             <Route path="/jk" element={<JK />} />
+            <Route path="/login" element={<Login />} />
             
           </Routes>
         </React.Fragment>

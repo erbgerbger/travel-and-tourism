@@ -13,6 +13,10 @@ const Home = () => {
       <div className="video-overlay-content">
         <h1>Start Your New Destination</h1>
         <br />
+        
+        <NavLink to="/login" className="login-button">
+          Login
+        </NavLink>
         <NavLink to={"/state"} className="reservation-button">
           Select Your Reservation
         </NavLink>
